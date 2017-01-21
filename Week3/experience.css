@@ -1,0 +1,41 @@
+<style>
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+      li {
+      display: inline;
+      padding: 8px;
+      }
+
+        body {
+        background-color: pink;
+        }
+
+        #nav { 
+        text-align:center;
+        }
+        #nav li {
+        display:inline;
+        }
+        #nav a {
+        text-decoration:none; 
+        padding:0 20px; /* variable width */
+        }
+
+    .center {
+    text-align: center;
+    border: 3px white;
+    }
+
+    p.big {
+    line-height: 110%;
+    }
+
+    p.helvetica {
+    font-family: Helvetica;
+    }
+
+</style>

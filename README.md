@@ -1,1 +1,1 @@
-# coding-for-creatives-class
+# Coding for Creative Class
