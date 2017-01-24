@@ -1,0 +1,190 @@
+<style>
+
+
+       <style>
+
+
+
+       .imgpadded {
+            
+            margin-right: 0px;
+            margin-bottom: 0px;
+            border: 6px ridge black;
+        }
+       
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     
+     }
+
+
+
+
+      li {
+      display: inline;
+      padding: 8px;
+      }
+
+        body {
+        background-color: pink;
+        }
+
+        #nav { 
+        text-align:center;
+        background-color: white;
+        border: 5px solid purple;
+        font-family: Helvetica;
+        font-size: 3em;
+
+        }
+        #nav li {
+        display:inline;
+        }
+        #nav a {
+        text-decoration:none; 
+        padding:0 20px ; /* variable width */
+        }
+        #nav {
+        padding-top: 3%;
+        }
+
+
+
+    .center {
+    text-align: center;
+    border: 3px white;
+    }
+
+    p.big {
+    line-height: 110%;
+    }
+
+    p.helvetica {
+    font-family: Helvetica;
+    }
+
+    h1 {
+    font-family: Helvetica;
+    }
+
+    h2 {
+    font-family: Helvetica;
+    }
+
+    h3 {
+    font-family: Helvetica;
+    }
+
+    p {
+    padding: 0cm 4cm 0cm 4cm;
+    }
+
+    .imgpadded {
+    padding: 2cm 4cm 3cm 4cm;
+    }
+    
+    .contact {
+       margin-top: 10%;
+    }
+
+    a:hover { 
+    background-color: pink;
+    }
+
+
+    .box {
+     margin-top: 2cm 
+     }
+
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+.jumbotron {
+    background-color:lightblue !important; 
+}
+
+
+
+</style>
